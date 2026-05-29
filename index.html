@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>Equilíbrio entre produção e meio ambiente</p>
+        <button id="darkModeBtn">Modo Escuro</button>
+    </header>
 
+    <!-- Navegação principal -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma iniciativa que busca aliar produção agrícola eficiente e respeito ao meio ambiente. Nosso objetivo é criar soluções sustentáveis para o futuro do agro.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Agricultura Sustentável">
+        </section>
+
+        <!-- Seção Produtos -->
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="https://via.placeholder.com/200" alt="Produto 1">
+                    <h3>Produto 1</h3>
+                    <p>Descrição do produto sustentável 1.</p>
+                    <button class="btn-info" data-produto="Produto 1">Mais Info</button>
+                </div>
+                <div class="produto">
+                    <img src="https://via.placeholder.com/200" alt="Produto 2">
+                    <h3>Produto 2</h3>
+                    <p>Descrição do produto sustentável 2.</p>
+                    <button class="btn-info" data-produto="Produto 2">Mais Info</button>
+                </div>
+                <div class="produto">
+                    <img src="https://via.placeholder.com/200" alt="Produto 3">
+                    <h3>Produto 3</h3>
+                    <p>Descrição do produto sustentável 3.</p>
+                    <button class="btn-info" data-produto="Produto 3">Mais Info</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contactForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
